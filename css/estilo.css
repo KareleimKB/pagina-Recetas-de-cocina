@@ -1,0 +1,359 @@
+/*reseteo decodigo*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e9c39e;
+    font-family: "Patrick Hand", cursive;
+}
+.header{
+padding: 10px;
+}
+.header_titulo{
+    text-align: left;
+}
+.header_nav{
+    width: 100%;
+    height: 50px;
+    background-color: #663e29;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header_menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.header_link{
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+}
+.header_link:hover{
+    background-color: #c57d55;
+    color: #663e29;
+}
+.recetas_text{
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border: #c57d55;
+   
+}
+.comidas_text{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    border: #c57d55;
+}
+.postres_text{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: #c57d55;
+}
+
+.otros_text{
+    text-align: end;
+    color: white;
+    font-weight: bold;
+    border: #c57d55;
+}
+.principiantes_text{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    border: #c57d55;
+}
+.intermedio_text{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    border: #c57d55;
+}
+.avanzado_text{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    border: #c57d55;
+}
+.contactanos_text{
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    border: #c57d55;
+}
+.explicacion_text{
+    text-align: left;
+    color: white;
+}
+.contactotext_box{
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    padding: 20px;
+    border: 2px; color: rgb(109, 107, 107);
+    text-align: center;
+    line-height: 0 auto;
+}
+
+
+/*imagenes*/
+
+/*imagenes index*/
+.medio{
+position: relative;
+width: 500px;
+margin: 0 auto;
+}
+.medio_img{
+    width: 100%;
+    height: auto;
+}
+.left{
+    position: relative;
+    width: 350px;
+    margin-right: auto;
+    
+}
+.left_img{
+    width: 100%;
+    height: auto;
+}
+.right{
+    position: relative;
+    width: 350px;
+    margin-left: auto;
+}
+.right_img{
+    width: 100%;
+    height: auto;
+}
+.down{
+    position: relative;
+    width: 250px;
+    margin: 0 auto;
+}
+.down_img{
+    width: 100%;
+    height: auto;
+}
+
+/*imagenes collab*/
+
+.primeras_img{
+    text-align: right;
+    padding: 10px;
+}
+.comida_de_carne{
+    border-radius: 10px;
+    width: 200px;
+}
+.segundas_img{
+    text-align: right;
+    padding: 10px;
+}
+.marshmellows{
+    border-radius: 10px;
+    width: 200px;
+}
+.arroz_del_senyoret{
+    border-radius: 10px;
+    width: 200px;
+}
+.ceviche_de_atun{
+    border-radius: 10px;
+    width: 200px;
+}
+.marshmellows{
+    border-radius: 10px;
+    width: 200px;
+}
+.tacos_de_suadero{
+    border-radius: 10px;
+    width: 200px;
+}
+.pavlova{
+    border-radius: 10px;
+    width: 200px;
+}
+.primera_fila{
+    padding: 10px;
+}
+.segunda_fila{
+    padding: 10px;
+}
+.tercera_fila{
+    padding: 10px;
+}
+.algo_frito{
+    border-radius: 100px;
+    width: 250px;
+    padding: 95px;
+}
+.yogurt{
+    border-radius: 100px;
+    width: 250px;
+    padding: 95px;
+}
+.Smoothie{
+    border-radius: 100px;
+    width: 250px;
+    padding: 95px;
+}
+.ensalada_rusa{
+    border-radius: 100px;
+    width: 250px;
+    padding: 95px;
+}
+.galleta_de_chocolate{
+    border-radius: 100px;
+    width: 250px;
+    padding: 95px;
+}
+.cafe_con_helado{
+    border-radius: 100px;
+    width: 250px;
+    padding: 95px;
+}
+.rollo_de_carne{
+    border-radius: 100px;
+    width: 250px;
+    padding: 95px;
+}
+.soufle{
+    border-radius: 100px;
+    width: 250px;
+    padding: 90px;
+}
+.vino{
+    border-radius: 100px;
+    width: 250px;
+    padding: 95px;
+}
+.principiantes_libros_fila{
+    text-align: right;
+    padding: 10px;
+}
+.intermedio_libros_fila{
+    text-align: right;
+    padding: 10px;
+}
+.avanzado_libros_fila{
+    text-align: right;
+    padding: 10px;
+}
+.img_como_como{
+    border-radius: 15px;
+    width: 185px;
+    padding: 10px;
+}
+.img_tomas_en_la_cocina{
+    border-radius: 15px;
+    width: 150px;
+    padding: 10px;
+}
+.apuntes_de_cocina{
+    border-radius: 15px;
+    width: 90px;
+    padding: 10px;
+}
+.img_manual_de_supervivencia{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_cocina_cruda{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_que_cocinar{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_europe_a_la_carte{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_pierre_herme_chocolate{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_herme_macaron{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_gastronomia_mexicana{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_mas_de_1000_recetas{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_maru_botana{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_gran_curso{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_the_proffesional_chef{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_grandes_maestros{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_ciencia_de_la_carne{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_cedric_grolet_fruits{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+.img_cocinar_una_historia{
+    border-radius: 15px;
+    width: 190px;
+    padding: 10px;
+}
+
+/*parrafos*/
+
+.primer_parrafo{
+    position: absolute;
+    top: 5%;
+    left: 100%;
+    padding: 10px;
+    
+}
+.linea_abajo{
+    border: #c57d55;
+    padding: 10px;
+    background-color: #c57d55;
+}
+.linea_text{
+    color: #c57d55;
+}
