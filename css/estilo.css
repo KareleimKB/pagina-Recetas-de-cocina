@@ -146,43 +146,17 @@ margin: 0 auto;
 }
 
 /*imagenes collab*/
-
+.container.left{
+    display: flex;
+}
+.container-right{
+    display: flex;
+    
+}
 .primeras_img{
-    text-align: right;
-    padding: 10px;
+    padding: 20px;
 }
-.comida_de_carne{
-    border-radius: 10px;
-    width: 200px;
-}
-.segundas_img{
-    text-align: right;
-    padding: 10px;
-}
-.marshmellows{
-    border-radius: 10px;
-    width: 200px;
-}
-.arroz_del_senyoret{
-    border-radius: 10px;
-    width: 200px;
-}
-.ceviche_de_atun{
-    border-radius: 10px;
-    width: 200px;
-}
-.marshmellows{
-    border-radius: 10px;
-    width: 200px;
-}
-.tacos_de_suadero{
-    border-radius: 10px;
-    width: 200px;
-}
-.pavlova{
-    border-radius: 10px;
-    width: 200px;
-}
+
 .primera_fila{
     padding: 10px;
 }
